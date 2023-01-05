@@ -13,10 +13,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    height:0;
 
   }
 
+  body{
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+
   header{
+    width: 50%;
     border-bottom: solid silver;
   }
 
@@ -28,13 +37,23 @@
   main{
     border: solid silver;
     width: 50%;
-    height: 40%;
-    width: auto;
+    height: 100%;
 
     position: relative;
     left: 9%;
+    margin-top: 10%;
     
   }
+
+  .section-produtos{
+    height: 150px;
+  }
+
+  .imagemproduto{
+    height: 200px;
+  }
+
+  
 
   #img1{
 
@@ -46,8 +65,9 @@
   
     position: absolute;
     left: 50%;
-    top: 32%;
+    bottom: 47%;
   }
+
 
   #img3{
 
@@ -56,15 +76,26 @@
     top: 66%;
   }
 
+  #img5{
+    position: absolute;
+    top: 32%;
+  }
+
+  #img6{
+    position: absolute;
+    top: 66%;
+  }
+
   @media (min-width: 768px) {
     main {
       width: 75%;
+      height: 100%;
     }
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     main {
-      width: 90%;
+      width: 100%;
     }
   }
   
