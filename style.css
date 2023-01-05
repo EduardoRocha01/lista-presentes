@@ -17,11 +17,15 @@
 
 body {
   height: 900px;
+  width: 900px;
 
 }
 
 header {
   width: 50%;
+  text-align: center;
+  position: relative;
+  left: 46%;
 
   border-bottom: solid silver;
 }
@@ -32,12 +36,12 @@ header nav {
 
 main {
   border: solid silver;
-  width: 60%;
+  width: 73%;
   height: 100%;
 
   position: relative;
-  left: 8%;
-  top: 24%;
+  left: 40%;
+  top: -3%;
   margin-top: 10%;
   padding-left: 5%;
   padding-right: 5%;
