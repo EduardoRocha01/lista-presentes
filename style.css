@@ -13,6 +13,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    font-size: 16px; /* tamanho padrão da fonte */
   }
   
   html,
@@ -47,36 +48,60 @@
     color: green;
   }
   
-  .imagem > img {
-    display: inline-block;
-    width: 12%;
-    margin-right: 1%;
-    border-bottom: solid whitesmoke;
-    margin-bottom: -1%;
-  }
-  
   .imagem {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%
+    flex-wrap: wrap; /* permitir que os elementos quebrem linha automaticamente */
+    margin-left: 2%;
+    margin-top: 15%;
+    margin-bottom: 2%;
   }
-
-.presente-btn{
-    
-    border-radius: 10%;
-    border: solid black;
-    height: 10%;
-    padding: 2px;
-}
-
-
-    
-    
-footer {
+  
+  .imagem section {
+    display: flex;
+  }
+  
+  .imagem img {
+    width: 50%;
+  }
+  
+  .imagem button {
+    width: 50%;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px; /* ajuste o tamanho da fonte para telas pequenas */
+    }
+  
+    .imagem {
+      margin-left: 0; /* remova a margem esquerda */
+      margin-top: 10%; /* reduza a margem superior */
+      margin-bottom: 0; /* remova a margem inferior */
+    }
+  
+    .imagem img {
+      width: 100%;
+    }
+  
+    .imagem button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .imagem img {
+      width: 50%;
+    }
+  
+    .imagem button {
+      width: 50%;
+    }
+  }
+  
+  footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     color: rgb(26, 24, 24);
     height: 50px;
     width: 100%;
@@ -90,3 +115,5 @@ footer {
     text-decoration: none;
     text-align: center;
   }
+  
+  
