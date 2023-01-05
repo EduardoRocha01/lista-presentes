@@ -22,6 +22,7 @@ body {
 
 header {
   width: 50%;
+
   border-bottom: solid silver;
 }
 
@@ -31,7 +32,7 @@ header nav {
 
 main {
   border: solid silver;
-  width: 66%;
+  width: 60%;
   height: 100%;
 
   position: relative;
