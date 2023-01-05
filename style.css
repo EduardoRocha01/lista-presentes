@@ -1,114 +1,92 @@
 @font-face {
-    font-family: 'festiva';
-    src: url('./PartyDayDemoRegular.ttf') format('truetype');
+  font-family: 'festiva';
+  src: url('./PartyDayDemoRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'texto';
+  src: url('./Modern\ Prestige\ DEMO.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',
+}
+
+body {
+  height: 900px;
+
+}
+
+header {
+  width: 100%;
+  border-bottom: solid silver;
+}
+
+header nav {
+  text-align: right;
+}
+
+main {
+  border: solid silver;
+  width: 66%;
+  height: 100%;
+
+  position: relative;
+  left: 8%;
+  top: 24%;
+  margin-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-produtos {
+  height: 150px;
+}
+
+.imagemproduto {
+  float: left;
+  margin-right: 20px;
+  height: 200px;
+}
+
+#img1 {
+  position: absolute;
+  left: 57%;
+}
+
+#img2 {
+  position: absolute;
+  left: 57%;
+  bottom: 47%;
+}
+
+#img3 {
+  position: absolute;
+  left: 57%;
+  top: 66%;
+}
+
+#img5 {
+  position: absolute;
+  top: 32%;
+}
+
+#img6 {
+  position: absolute;
+  top: 66%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
   }
-  
-  @font-face {
-    font-family: 'texto';
-    src: url('./Modern\ Prestige\ DEMO.otf') format('opentype');
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
   }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    height:0;
-
-  }
-
-  body{
-    
-    
-    height: 796px;
-    min-height: 600px;
-  }
-
-  header{
-    width: 50%;
-    border-bottom: solid silver;
-  }
-
-  header nav {
-    text-align: right;
-  }
-
-
-  main{
-    border: solid silver;
-    width: 50%;
-    height: 100%;
-
-    position: relative;
-    left: 9%;
-    margin-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .section-produtos{
-    height: 150px;
-  }
-
-  .imagemproduto{
-    height: 200px;
-  }
-
-  
-
-  #img1{
-
-    position: absolute;
-    left: 67%;
-  }
-
-  #img2{
-  
-    position: absolute;
-    left: 67%;
-    bottom: 47%;
-  }
-
-
-  #img3{
-
-    position: absolute;
-    left: 67%;
-    top: 66%;
-  }
-
-  #img5{
-    position: absolute;
-    top: 32%;
-  }
-
-  #img6{
-    position: absolute;
-    top: 66%;
-  }
-
-  @media (min-width: 768px) {
-    main {
-      width: 75%;
-      height: 100%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    main {
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
+}
