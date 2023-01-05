@@ -16,28 +16,55 @@
 
   }
 
+  header{
+    border-bottom: solid silver;
+  }
+
+  header nav {
+    text-align: right;
+  }
+
 
   main{
     border: solid silver;
     width: 50%;
     height: 40%;
     width: auto;
+
+    position: relative;
+    left: 9%;
     
   }
 
   #img1{
+
     position: absolute;
     left: 50%;
   }
 
   #img2{
+  
     position: absolute;
     left: 50%;
-    bottom: 20%;
+    top: 32%;
   }
 
   #img3{
+
     position: absolute;
     left: 50%;
-    bottom: -12%;
+    top: 66%;
   }
+
+  @media (min-width: 768px) {
+    main {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    main {
+      width: 90%;
+    }
+  }
+  
