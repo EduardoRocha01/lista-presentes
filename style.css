@@ -65,13 +65,21 @@ main{
   text-align: center;
 }
 
-#comprar button{
-   background-color: green;
-   border: solid silver;
-   margin-top: 5%;
-   box-shadow: inset 5px 5px 5px black;
-   margin-bottom: 5%;
-   width: 9%;
-   height: 60px;
-   border-radius: 0;
+#contato{
+  width: 5%;
+  height: 30px;
+}
+
+#comprar img{
+  width: 40%;
+  height: 113px;
+  border-bottom: none;
+}
+
+#explicação h1{
+  text-align: center;
+  color: rgb(71, 49, 16);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+  border-bottom: solid silver;
+  margin: 1%;
 }
