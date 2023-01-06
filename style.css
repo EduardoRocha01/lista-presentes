@@ -49,6 +49,8 @@ header nav {
 
 main{
   border: solid salmon;
+  border-radius: 3%;
+  padding: 5%;
   width: 56%;
   height: 50% ;
    flex-wrap: wrap;
@@ -66,7 +68,6 @@ main{
 #comprar button{
    background-color: green;
    border: solid silver;
-   border-radius: 50%;
    margin-top: 5%;
    box-shadow: inset 5px 5px 5px black;
    margin-bottom: 5%;
