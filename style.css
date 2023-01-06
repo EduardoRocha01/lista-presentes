@@ -1,97 +1,76 @@
-@font-face {
-  font-family: 'festiva';
-  src: url('./PartyDayDemoRegular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'texto';
-  src: url('./Modern\ Prestige\ DEMO.otf') format('opentype');
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',
-}
-
-body {
-  height: 900px;
-  width: 768px;
+.conteiner{
+  width: 700px;
+  height: 528px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-header {
-  width: 50%;
-  text-align: center;
-  position: relative;
-  left: 46%;
+img{
+  height: 200px;
+  width: 150px;
+  border-bottom:  solid silver;
+}
 
+.botãocomprar{
+  height: 5px;
+  width: 3%;
+}
+
+button{
+  background-color: rgb(131, 146, 131);
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25%;
+  height: 5%;
+  font-weight: bold;
+}
+
+#c2{
+  position: absolute;
+  top: 49%;
+  left: 3%;
+}
+
+header{
   border-bottom: solid silver;
+  
 }
 
 header nav {
   text-align: right;
 }
-
-main {
-  border: solid silver;
-  width: 73%;
-  height: 100%;
-
-  position: relative;
-  left: 29%;
-  top: 15%;
-  margin-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+.logo{
+  width: 60px;
+  height: 60px;
+  border-bottom: none;
 }
 
-.section-produtos {
-  height: 150px;
+main{
+  border: solid salmon;
+  width: 56%;
+  height: 50% ;
+   flex-wrap: wrap;
 }
 
-.imagemproduto {
-  float: left;
-  margin-right: 20px;
-  height: 200px;
+#comprar img{
+  width: 120px;
+  height: 90px;
 }
 
-#img1 {
-  position: absolute;
-  left: 57%;
+#comprar{
+  text-align: center;
 }
 
-#img2 {
-  position: absolute;
-  left: 57%;
-  bottom: 47%;
-}
-
-#img3 {
-  position: absolute;
-  left: 57%;
-  top: 66%;
-}
-
-#img5 {
-  position: absolute;
-  top: 32%;
-}
-
-#img6 {
-  position: absolute;
-  top: 66%;
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
+#comprar button{
+   background-color: green;
+   border: solid silver;
+   border-radius: 50%;
+   margin-top: 5%;
+   box-shadow: inset 5px 5px 5px black;
+   margin-bottom: 5%;
+   width: 9%;
+   height: 60px;
+   border-radius: 0;
 }
