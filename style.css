@@ -1,3 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 .conteiner{
   width: 700px;
   height: 528px;
@@ -48,6 +55,7 @@ header nav {
 }
 
 main{
+  min-height: 100%;
   border: solid salmon;
   border-radius: 3%;
   padding: 5%;
@@ -89,4 +97,5 @@ main{
     width: 100%;
   }
 }
+
 
