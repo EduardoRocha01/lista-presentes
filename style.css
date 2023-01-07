@@ -83,3 +83,10 @@ main{
   border-bottom: solid silver;
   margin: 1%;
 }
+
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+  }
+}
+
