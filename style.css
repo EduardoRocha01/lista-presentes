@@ -56,12 +56,11 @@ header nav {
 
 header nav a{
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(18, 37, 53);
 }
 
 main{
   min-height: 100%;
-  border: solid salmon;
   border-radius: 3%;
   padding: 5%;
   width: 56%;
@@ -93,12 +92,20 @@ main{
   text-align: center;
   color: rgb(71, 49, 16);
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+  font-size: 200%;
   border-bottom: solid silver;
   margin: 1%;
 }
 
 @media (max-width: 480px) {
   main {
+    width: 100%;
+  
+  }
+}
+
+@media (max-width: 480px) {
+  #comprar {
     width: 100%;
   
   }
