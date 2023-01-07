@@ -11,13 +11,13 @@ html, body {
   margin: auto;
   margin-top: 5%;
   display: flex;
-  justify-content: space-between;
+  
 
 }
 
 img{
-  height: 0,4%; 
-  width: 5%px;
+ padding: 5%;
+  width: 40%;
   border-bottom:  solid silver;
 }
 
@@ -66,6 +66,13 @@ main{
   width: 56%;
   height: 50% ;
    flex-wrap: wrap;
+}
+
+.conteiner img{
+   width: 123%;
+   height: auto;
+   padding: 2%;
+   margin: 2%;
 }
 
 #comprar img{
