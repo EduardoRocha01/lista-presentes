@@ -1,132 +1,89 @@
-html, body {
-  height: 100%;
+@font-face {
+  font-family:'font-1' ;
+  src: url('./Modern\ Prestige\ DEMO.otf');
+}
+
+.menu {
+  border-bottom: solid silver;
+  overflow: hidden;
+}
+
+.menu-items {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-
-.conteiner{
-  width: 700px;
-  height: 528px;
-  margin: auto;
-  margin-top: 5%;
-  display: flex;
-  
-
+.menu-items li {
+  font-family: font-1;
+  float: left;
 }
 
-img{
- padding: 5%;
-  width: 40%;
-  border-bottom:  solid silver;
-}
-
-.botãocomprar{
-  height: 5px;
-  width: 3%;
-}
-
-button{
-  background-color: rgb(131, 146, 131);
-  box-shadow: 5px 5px 5px black;
-  border-radius: 25%;
-  height: 5%;
-  font-weight: bold;
-}
-
-#c2{
-  position: absolute;
-  top: 49%;
-  left: 3%;
-}
-
-header{
-  border-bottom: solid silver;
-  background-color: rgb(172, 185, 243);
-  height: 7%;
-  
-}
-
-header nav {
-  text-align: left;
-  font-size: 200%;
-  
-
-}
-
-header nav a{
+.menu-items li a {
+  display: block;
+  color: rgb(77, 34, 34);
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: rgb(18, 37, 53);
 }
 
-main{
-  min-height: 100%;
-  border-radius: 3%;
-  padding: 5%;
-  width: 56%;
-  height: 50% ;
-   flex-wrap: wrap;
+.menu-items li a:hover {
+  color: blue;
 }
 
-.conteiner img{
-   width: 123%;
-   height: auto;
-   padding: 2%;
-   margin: 2%;
+header nav{
+  text-align: right;
 }
 
-#comprar img{
-  width: 120px;
-  height: 90px;
+.conteiner a img:hover{
+  border: solid rgba(32, 124, 74, 0.61);
+  background-color: rgb(102, 71, 33);
 }
 
-#comprar{
-  text-align: center;
+.menu .icon {
+  display: none;
 }
 
-#contato{
-  width: 5%;
-  height: 30px;
+
+#comprar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#comprar img{
-  width: 40%;
-  height: 113px;
-  border-bottom: none;
+#comprar img {
+  margin: 0 10px;
 }
 
-#explicação h1{
-  text-align: center;
-  color: rgb(71, 49, 16);
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
-  font-size: 200%;
-  border-bottom: solid silver;
-  margin: 1%;
+#explicação{
+  font-family: font-1;
 }
 
-@media (max-width: 480px) {
-  main {
-    width: 100%;
-  
+
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
   }
-}
-
-@media (max-width: 480px) {
-  #comprar {
-    width: 100%;
-  
-  }
-}
-/*menu desktop*/
-@media (max-width: 480px) {
-  nav {
+  .menu-items {
     display: none;
   }
+  .menu-items.responsive {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+  .menu-items.responsive li {
+    float: none;
+  }
+  .menu-items.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .menu .icon {
+    display: block;
+  }
 }
-
-
-
-/*menu mpbile*/
-
-
-
