@@ -42,16 +42,14 @@ button{
 
 header{
   border-bottom: solid silver;
+  background-color: rgb(172, 185, 243);
+  height: 3%;
   
 }
 
 header nav {
-  text-align: right;
-}
-.logo{
-  width: 60px;
-  height: 60px;
-  border-bottom: none;
+  text-align: left;
+
 }
 
 main{
@@ -95,7 +93,19 @@ main{
 @media (max-width: 480px) {
   main {
     width: 100%;
+  
   }
 }
+/*menu desktop*/
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+}
+
+
+
+/*menu mpbile*/
+
 
 
