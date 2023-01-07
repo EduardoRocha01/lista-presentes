@@ -16,7 +16,7 @@ html, body {
 }
 
 img{
-   
+  height: 0,4%; 
   width: 5%px;
   border-bottom:  solid silver;
 }
