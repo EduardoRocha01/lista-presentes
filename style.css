@@ -33,7 +33,11 @@
 }
 
 header nav{
+  font-family: font-1;
   text-align: right;
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
 }
 
 .conteiner a img:hover{
