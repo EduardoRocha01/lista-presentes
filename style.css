@@ -3,16 +3,23 @@
   src: url('./Modern\ Prestige\ DEMO.otf');
 }
 
-html, body {
+html,body {
+  
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
+body{
+ background:linear-gradient(to right, #fdfbfd9c , #faf8f2,#1c1a92c9);
+}
 html{
   height: 1%;
 }
 
+i{
+  margin: 2%;
+}
 #comprar {
   position: relative;
   bottom: 0;
@@ -30,23 +37,27 @@ html{
   margin: 0;
   padding: 0;
   overflow: hidden;
+  color: aliceblue;
 }
 
 .menu-items li {
   font-family: font-1;
   float: left;
+  color: aliceblue;
 }
 
 .menu-items li a {
   display: block;
-  color: rgb(77, 34, 34);
+  color: rgb(226, 231, 236);
+  font-weight: bold;
+  font-size: 200%;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .menu-items li a:hover {
-  color: blue;
+  color: rgb(50, 50, 68);
 }
 
 header nav{
@@ -59,7 +70,7 @@ header nav{
 
 .conteiner a img:hover{
   border: solid rgba(32, 124, 74, 0.61);
-  background-color: rgb(102, 71, 33);
+  background-color: rgb(167, 158, 148);
   transition: 0.4s;
 }
 
